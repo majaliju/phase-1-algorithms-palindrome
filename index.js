@@ -8,13 +8,8 @@ function reverse(word) {
 function isPalindrome(word){
   const wordInReverse = reverse(word)
 
-  if (word === wordInReverse) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
+  return word === wordInReverse
+}
 
 
 // // my initial approach
